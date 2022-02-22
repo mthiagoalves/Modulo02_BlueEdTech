@@ -1,11 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   padding: 0;
   margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+main {
+  background-color: #6d6868;
+  margin: 0 10rem 0 10rem;
+}
+
+header {
+  background-color: #6d6868;
+  margin: 0 10rem 0 10rem;
 }
 
 body {
   background-color: #6d6868;
-  margin: 0 10rem 0 10rem;
 }
 
 h1 {
@@ -22,4 +33,21 @@ h1 {
 
 .texto {
   color: #00b368;
+}
+
+ul#menu {
+  display: flex;
+}
+
+ul#menu li {
+  padding: 3rem;
+  list-style: none;
+}
+
+nav {
+  background-color: #1f6648;
+}
+
+ul #menu li i {
+  font-size: 2rem;
 }
