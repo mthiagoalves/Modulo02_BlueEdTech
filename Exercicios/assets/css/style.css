@@ -10,10 +10,7 @@ main {
   margin: 0 10rem 0 10rem;
 }
 
-header {
-  background-color: #6d6868;
-  margin: 0 10rem 0 10rem;
-}
+
 
 body {
   background-color: #6d6868;
@@ -39,6 +36,7 @@ ul#menu {
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: start;
 }
 
 ul#menu li {
@@ -51,5 +49,27 @@ nav {
 }
 
 #icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+ul#menu li a {
+  color: #002717;
+  text-decoration: none;
+}
+
+ul#menu li:hover {
+  transform: scale(1.2);
+}
+
+ul#menu li a:hover {
+  color: aliceblue;
+}
+
+header img{
+  width: 100%;
+}
+
+header h1{
+  text-align: center;
+  margin-top: 3rem;
 }
