@@ -6,14 +6,15 @@
 }
 
 main {
-  background-color: #6d6868;
+  background-color: #ffffff;
   margin: 0 10rem 0 10rem;
+  text-align: center;
 }
 
 
 
 body {
-  background-color: #6d6868;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -21,15 +22,15 @@ h1 {
 }
 
 .subTitulo1 {
-  color: #1f6648;
+  color: #A30B0B
 }
 
 .subTitulo2 {
-  color: #1f6648;
+  color: #A30B0B
 }
 
 .texto {
-  color: #00b368;
+  color: #570606;
 }
 
 ul#menu {
@@ -45,15 +46,16 @@ ul#menu li {
 }
 
 nav {
-  background-color: #1f6648;
+  background-color: #A30B0B;
 }
 
 #icon {
+  color: #F0A5A5;
   font-size: 1.5rem;
 }
 
 ul#menu li a {
-  color: #002717;
+  color: #F0A5A5;
   text-decoration: none;
 }
 
@@ -62,7 +64,7 @@ ul#menu li:hover {
 }
 
 ul#menu li a:hover {
-  color: aliceblue;
+  color: #570606
 }
 
 header img{
@@ -79,4 +81,10 @@ header p {
   padding: 1rem;
 }
 
+section#anime h2{
+  text-align: center;
+}
 
+section#anime h3{
+  text-align: center;
+}
